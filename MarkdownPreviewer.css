@@ -1,0 +1,81 @@
+
+.toolbar{
+  font-size: 1rem;
+  background-color: #9d19c9;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  padding: 0.3rem;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 5px #61077e;
+  margin: auto;
+}
+
+#editorArrow{
+  padding-left: 33.5rem;
+}
+
+#previewArrow{
+  padding-left: 45.5rem
+}
+
+#editorArrow:hover, #previewArrow:hover{
+  color: #ea1ef6;
+  cursor: pointer
+}
+.preview{
+  width: 870px;
+}
+
+.editor{
+  width: 45%;
+}
+
+#editor{
+  width: 45%;
+  height: 200px;
+  background-color: #dbb5e8;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 5px #61077e;
+}
+
+#preview{
+  width: 60%;
+  height: 500px;
+  background-color: #dbb5e8;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 5px #61077e;
+  margin: auto;
+  text-align: left;
+  padding-left: 20px;
+}
+
+i{
+  padding-left: .2rem;
+  padding-right: .5rem
+}
+
+:root{
+  background-color: #c16ddc;
+  text-align: center
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.hide{
+  display: none;
+}
+
+.editorMaximize{
+  height: 450px !important;
+}
+
+.previewMaximize{
+  height: 500px !important;
+}
+
+img{
+  width: 200px
+}
